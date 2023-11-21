@@ -662,7 +662,7 @@ nav {
 .review__content {
   text-align: center;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 2px solid var(--secondary-color);;
   border-radius: 10px;
 }
 
