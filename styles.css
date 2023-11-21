@@ -23,6 +23,10 @@ html {
 a:visited {
   color: #ffffff; /* Set the same color as normal link color */
 }
+a{
+  color: #ffffff; /* Set the same color as normal link color */
+}
+
 
 .section__container {
   max-width: var(--max-width);
@@ -649,3 +653,17 @@ nav {
     text-align: center;
   }
 }
+
+.slick-slide {
+  margin: 0 10px;
+}
+
+
+.review__content {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+

@@ -8,6 +8,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <!-- Include Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Include Slick Carousel theme CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    
     <title>Leo's Fitness</title>
   </head>
   <body>
@@ -244,9 +249,43 @@
       </div>
     </section>
 
-    <section class="review">
+    <div class="reviews-carousel">
+      
+      <!-- Review 1 -->
       <div class="section__container review__container">
-        <span><i class="ri-double-quotes-r"></i></span>
+        <!-- ... (same HTML structure as provided) ... -->
+        <div class="review__content">
+          <h4>MEMBER REVIEW</h4>
+          <p>
+            I've tried various gyms in the past, but Leo's stands out.
+            The emphasis on physical training without relying on machines made the workouts challenging and fun.
+            The trainers are knowledgeable and genuinely care about your progress. Definitely my go-to place for fitness now
+          </p>
+          <div>
+            
+          </div>
+          <div class="review__rating">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-half-fill"></i></span>
+          </div>
+          <div class="review__footer">
+            <div class="review__member">
+              <img src="assets/adarsh-profile.png" alt="member" />
+              <div class="review__member__details">
+                <h4>Adarsh BP</h4>
+                <p>Software Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Review 2 -->
+      <div class="section__container review__container">
+        <!-- ... (same HTML structure as provided for the second review) ... -->
         <div class="review__content">
           <h4>MEMBER REVIEW</h4>
           <p>
@@ -259,24 +298,51 @@
             <span><i class="ri-star-fill"></i></span>
             <span><i class="ri-star-fill"></i></span>
             <span><i class="ri-star-fill"></i></span>
-            <span><i class="ri-star-half-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
           </div>
           <div class="review__footer">
             <div class="review__member">
-              <img src="assets/adarsh.png" alt="member" />
+              <img src="assets/adarsh-profile.png" alt="member" />
               <div class="review__member__details">
-                <h4>Adarsh BP</h4>
-                <p>Software Developer</p>
+                <h4>JK</h4>
+                <p>Civil Design and Developer</p>
               </div>
-            </div>
-            <div class="review__nav">
-              <span><i class="ri-arrow-left-line"></i></span>
-              <span><i class="ri-arrow-right-line"></i></span>
             </div>
           </div>
         </div>
       </div>
-    </section>
+
+      <div class="section__container review__container">
+        <!-- ... (same HTML structure as provided for the second review) ... -->
+        <div class="review__content">
+          <h4>MEMBER REVIEW</h4>
+          <p>
+            I've tried various gyms in the past, but Leo's stands out.
+            The emphasis on physical training without relying on machines made the workouts challenging and fun.
+            The trainers are knowledgeable and genuinely care about your progress. Definitely my go-to place for fitness now
+          </p>
+          <div class="review__rating">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="review__footer">
+            <div class="review__member">
+              <img src="assets/jk-profile.png" alt="member" />
+              <div class="review__member__details">
+                <h4>JK</h4>
+                <p>Civil Design and Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Add more reviews as needed -->
+  
+    </div>
 
     <footer class="section__container footer__container">
       <span class="bg__blur"></span>
@@ -317,9 +383,38 @@
     </footer>
     <div class="footer__bar">
       Copyright © Leo's Fitness. All rights reserved.
+      <br>
+      Webpage developed by <a href="https://github.com/AdarshBP" target="_blank" style="color: #d74747;">AdarshBP</a>
+
     </div>
 
     <script src="script.js"></script>
+    <!-- Include jQuery (required for Slick Carousel) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+      // Initialize Slick Carousel
+      $(document).ready(function(){
+        $('.reviews-carousel').slick({
+          slidesToShow: 2, // Set to 1 for one review at a time
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 5000,
+          dots: true,
+          arrows: true,
+          responsive: [
+            {
+              breakpoint: 768, // Adjust the breakpoint as needed
+              settings: {
+                slidesToShow: 1, // Show two reviews on larger screens if needed
+                slidesToScroll: 1
+              }
+            }
+          ]
+        });
+      });
+    </script>
   </body>
 
   
