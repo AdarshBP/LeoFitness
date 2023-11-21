@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
-    
+
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -304,7 +304,7 @@
           </div>
           <div class="review__footer">
             <div class="review__member">
-              <img src="assets/jk-profile.png" alt="member" />
+              <img src="assets/adarsh-profile.png" alt="member" />
               <div class="review__member__details">
                 <h4>JK</h4>
                 <p>Civil Design and Developer</p>
@@ -332,7 +332,7 @@
           </div>
           <div class="review__footer">
             <div class="review__member">
-              <img src="assets/adarsh-profile.png" alt="member" />
+              <img src="assets/jk-profile.png" alt="member" />
               <div class="review__member__details">
                 <h4>JK</h4>
                 <p>Civil Design and Developer</p>
@@ -350,6 +350,22 @@
       <span class="bg__blur"></span>
       <span class="bg__blur footer__blur"></span>
       <div class="footer__col">
+        <h4>Company</h4>
+        <a onclick="generateCustomWhatsAppLink('Business')">Business</a>
+        <a onclick="generateCustomWhatsAppLink('Franchise')">Franchise</a>
+        <a onclick="generateCustomWhatsAppLink('Partnership')">Partnership</a>
+        <a onclick="generateCustomWhatsAppLink('Network')">Network</a>
+      </div>
+      <div class="footer__col">
+        <h4>About Us</h4>
+        <a onclick="generateWhatsAppLink('')">Contact Us</a>
+        <a onclick="generateCustomWhatsAppLink('Careers')">Careers</a>
+        <a href="https://www.calculator.net/bmi-calculator.html">BMI Calculator</a>
+      </div>
+    </footer>
+
+    <div class="footer__bar">
+      <!-- <div class="footer__col">
         <div class="footer__logo"><img src="assets/logo.png" alt="logo" /></div>
         <p>
           Ready to experience a new dimension of fitness? Join Leo's.
@@ -361,29 +377,7 @@
           <a onclick="generateWhatsAppLink('')"><i class="ri-instagram-line"></i></a>
           <a onclick="generateWhatsAppLink('')"><i class="ri-whatsapp-fill" ></i></a>
         </div>
-      </div>
-      <div class="footer__col">
-        <h4>Company</h4>
-        <a onclick="generateCustomWhatsAppLink('Business')">Business</a>
-        <a onclick="generateCustomWhatsAppLink('Franchise')">Franchise</a>
-        <a onclick="generateCustomWhatsAppLink('Partnership')">Partnership</a>
-        <a onclick="generateCustomWhatsAppLink('Network')">Network</a>
-      </div>
-      <div class="footer__col">
-        <h4>About Us</h4>
-        <a href="#">Blogs</a>
-        <a href="#">Security</a>
-        <a onclick="generateCustomWhatsAppLink('Careers')">Careers</a>
-      </div>
-      <div class="footer__col">
-        <h4>Contact</h4>
-        <a onclick="generateWhatsAppLink('')">Contact Us</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms & Conditions</a>
-        <a href="https://www.calculator.net/bmi-calculator.html">BMI Calculator</a>
-      </div>
-    </footer>
-    <div class="footer__bar">
+      </div> -->
       Copyright © Leo's Fitness. All rights reserved.
       <br>
       Webpage developed by <a href="https://github.com/AdarshBP" target="_blank" style="color: #d74747;">AdarshBP</a>
@@ -416,6 +410,9 @@
           ]
         });
       });
+      $('.reviews-carousel').on('touchstart', function(e) {
+    // Your touchstart event handler code
+  }, { passive: true });
     </script>
   </body>
 

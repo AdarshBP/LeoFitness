@@ -509,7 +509,7 @@ nav {
 .footer__container {
   position: relative;
   display: grid;
-  grid-template-columns: 400px repeat(3, 1fr);
+  grid-template-columns: 50%repeat(1, 1fr);
   gap: 2rem;
 }
 
@@ -581,7 +581,15 @@ nav {
 
   .header__container {
     grid-template-columns: repeat(1, 1fr);
+    
   }
+
+  .header__container h1{
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  
+  
 
   .header__image {
     grid-area: 1/1/2/2;
@@ -597,7 +605,7 @@ nav {
   }
 
   .class__image {
-    min-height: 500px;
+    min-height: 350px;
   }
 
   .price__grid {
@@ -609,7 +617,8 @@ nav {
   }
 
   .footer__container {
-    grid-template-columns: 1fr 200px;
+    /* grid-template-columns: 1fr 200px; */
+    margin:2rem;
   }
 }
 
@@ -646,7 +655,8 @@ nav {
   }
 
   .footer__container {
-    grid-template-columns: 1fr 150px;
+    /* grid-template-columns: 1fr 150px; */
+    margin:2rem
   }
 
   .footer__bar {
