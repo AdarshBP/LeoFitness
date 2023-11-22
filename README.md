@@ -45,7 +45,7 @@ This GitHub repository features the source code for a freelance project focused 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/gym-website.git
+   git clone https://github.com/AdarshBP/LeoFitness.git
    ```
 
    Open the project folder in your preferred code editor.
