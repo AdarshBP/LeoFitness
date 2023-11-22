@@ -4,6 +4,8 @@
 
 https://adarshbp.github.io/LeoFitness
 
+https://leosfitness.online
+
 
 ![Alt Text](assets/walkthrough.gif)
 
