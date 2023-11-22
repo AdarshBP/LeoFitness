@@ -1,6 +1,6 @@
 # Gym Website - Responsive Sample
 
-This repository contains the source code for a sample responsive gym website. The website is designed to showcase a modern and user-friendly interface that adapts to different screen sizes, providing an optimal viewing experience on various devices.
+This GitHub repository features the source code for a freelance project focused on developing a responsive gym website. The project emphasizes a contemporary and user-friendly interface, specifically tailored to seamlessly adapt to diverse screen sizes. The goal is to ensure an optimal viewing experience across various devices, aligning with the principles of responsive design. Explore the repository to delve into the codebase and witness the integration of a dynamic and engaging website catering to the unique needs of a fitness-oriented audience.
 
 ## Table of Contents
 
