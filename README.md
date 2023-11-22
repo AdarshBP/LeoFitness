@@ -1,5 +1,12 @@
 # Gym Website - Responsive Sample
 
+[![Publish The website ](https://github.com/AdarshBP/LeoFitness/actions/workflows/static.yml/badge.svg?branch=main)](https://github.com/AdarshBP/LeoFitness/actions/workflows/static.yml)
+
+https://adarshbp.github.io/LeoFitness
+
+
+![Alt Text](assets/walkthrough.gif)
+
 This GitHub repository features the source code for a freelance project focused on developing a responsive gym website. The project emphasizes a contemporary and user-friendly interface, specifically tailored to seamlessly adapt to diverse screen sizes. The goal is to ensure an optimal viewing experience across various devices, aligning with the principles of responsive design. Explore the repository to delve into the codebase and witness the integration of a dynamic and engaging website catering to the unique needs of a fitness-oriented audience.
 
 ## Table of Contents
