@@ -1,4 +1,4 @@
-var phoneNumber = "8050805077";
+var phoneNumber = "+918050805077";
 var whatsappLink = "https://wa.me/" + phoneNumber + "?text=";
 
 function generateWhatsAppLink(data) {
